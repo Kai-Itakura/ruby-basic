@@ -23,13 +23,17 @@
 #   end
 # end
 
-japanese = 40
-math = 50
+names = ["花道", "楓", "ゴリ", "諒太", "久志"]
 
-if japanese >= 60 && math >= 60
-  puts "とても素晴らしい。両方合格です。"
-elsif japanese >= 60 || math >= 60
-  puts "素晴らしい、あと1教科頑張りましょう。"
-else
-  puts "残念、不合格です。"
+names.each do |name|
+  puts "私の名前は#{name}です。"
 end
+
+ages = [25, 35, 92]
+
+sum = 0
+ages.each do |age|
+  sum += age
+end
+
+puts sum / 3
