@@ -13,12 +13,23 @@
 
 # p sum
 
-for i in 1 .. 10
-  if i == 3
-    next
-  elsif i == 7
-    break
-  else 
-    p i
-  end
+# for i in 1 .. 10
+#   if i == 3
+#     next
+#   elsif i == 7
+#     break
+#   else
+#     p i
+#   end
+# end
+
+japanese = 40
+math = 50
+
+if japanese >= 60 && math >= 60
+  puts "とても素晴らしい。両方合格です。"
+elsif japanese >= 60 || math >= 60
+  puts "素晴らしい、あと1教科頑張りましょう。"
+else
+  puts "残念、不合格です。"
 end
