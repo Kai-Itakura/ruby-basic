@@ -18,9 +18,16 @@
 # add_result = add(6,8)
 # p add_result
 
-def average(num1, num2, num3)
-  return (num1 + num2 + num3) / 3
+# def average(num1, num2, num3)
+#   return (num1 + num2 + num3) / 3
+# end
+
+# average_result = average(3,6,9)
+# p average_result
+
+def add(a, b)
+  return a + b
 end
 
-average_result = average(3,6,9)
-p average_result
+result = 3 * add(4234, 876)
+puts result
