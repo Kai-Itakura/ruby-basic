@@ -23,17 +23,22 @@
 #   end
 # end
 
-names = ["花道", "楓", "ゴリ", "諒太", "久志"]
+# names = ["花道", "楓", "ゴリ", "諒太", "久志"]
 
-names.each do |name|
-  puts "私の名前は#{name}です。"
-end
+# names.each do |name|
+#   puts "私の名前は#{name}です。"
+# end
 
-ages = [25, 35, 92]
+# ages = [25, 35, 92]
 
-sum = 0
-ages.each do |age|
-  sum += age
-end
+# sum = 0
+# ages.each do |age|
+#   sum += age
+# end
 
-puts sum / 3
+# puts sum / 3
+
+menber = { Hanamichi: 189, Kaede: 187, Gori: 197, Ryota: 168, Hisashi: 184 }
+puts menber[:Hisashi]
+
+# heights = [189, 187, 197, 169, 184]
